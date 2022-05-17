@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="所有分类, Trainer,github">
+    <meta name="keywords" content="标签: Linux, Trainer,github">
     <meta name="description" content="北冥有鱼，其名为鲲，鲲之大，不知其几千里也； 化而为鸟，其名为鹏.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -19,7 +19,7 @@
 
     
 
-    <title>所有分类 | Trainer</title>
+    <title>标签: Linux | Trainer</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -313,145 +313,175 @@
 
     
 
-<div id="category-cloud" class="container chip-container">
+<div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
             </div>
             <div class="tag-chips">
                 
                 
-                
-                <a href="/categories/Learning-notes/" title="Learning notes: 1">
+                <a href="/tags/c/" title="c: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">Learning notes
+                            data-tagname="c" style="background-color: #F9EBEA;">c
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Learning-notes/Linux/" title="Linux: 1">
+                <a href="/tags/java/" title="java: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">Linux
+                            data-tagname="java" style="background-color: #F5EEF8;">java
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Learning-notes/Linux/Windows/" title="Windows: 1">
+                <a href="/tags/python/" title="python: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">Windows
+                            data-tagname="python" style="background-color: #D5F5E3;">python
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Learning-notes/Linux/Windows/WEB/" title="WEB: 1">
+                <a href="/tags/Note/" title="Note: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #E8F8F5;">WEB
+                            data-tagname="Note" style="background-color: #E8F8F5;">Note
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Learning-notes/Linux/Windows/WEB/Tools/" title="Tools: 1">
+                <a href="/tags/Linux/" title="Linux: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #FEF9E7;">Tools
+                             chip-active "
+                            data-tagname="Linux" style="background-color: #FEF9E7;">Linux
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Learning-notes/Linux/Windows/WEB/Tools/CTF/" title="CTF: 1">
+                <a href="/tags/Windows/" title="Windows: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F8F9F9;">CTF
+                            data-tagname="Windows" style="background-color: #F8F9F9;">Windows
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Learning-notes/Linux/Windows/WEB/Tools/CTF/Write-up/" title="Write up: 1">
+                <a href="/tags/WEB/" title="WEB: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #82E0AA;">Write up
+                            data-tagname="WEB" style="background-color: #82E0AA;">WEB
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
+                
+                <a href="/tags/Tools/" title="Tools: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Tools" style="background-color: #D7BDE2;">Tools
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/CTF/" title="CTF: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CTF" style="background-color: #A3E4D7;">CTF
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Write-up/" title="Write up: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Write up" style="background-color: #85C1E9;">Write up
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
                 
             </div>
         </div>
     </div>
 </div>
 
-
-    
-    <style type="text/css">
-    #category-radar {
-        width: 100%;
-        height: 360px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
     
 
-    let option = {
-        title: {
-            left: 'center',
-            text: '文章分类雷达图',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
-            }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"Learning notes","max":2},{"name":"Linux","max":2},{"name":"Windows","max":2},{"name":"WEB","max":2},{"name":"Tools","max":2},{"name":"CTF","max":2},{"name":"Write up","max":2}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [1,1,1,1,1,1,1],
-                    name : '文章分类数量'
-                }
-            ]
-        }]
-    };
-
-    radarChart.setOption(option);
-</script>
-
-    
-
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="c, java, python, Note, Linux, Windows, WEB, Tools, CTF, Write up" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2022/05/17/first-blog/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="First blog">
+                            
+                            <span class="card-title">First blog</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Learning-notes/" class="post-category">
+                                Learning notes
+                                </a>
+                                
+                                <a href="/categories/Learning-notes/Linux/" class="post-category">
+                                Linux
+                                </a>
+                                
+                                <a href="/categories/Learning-notes/Linux/Windows/" class="post-category">
+                                Windows
+                                </a>
+                                
+                                <a href="/categories/Learning-notes/Linux/Windows/WEB/" class="post-category">
+                                WEB
+                                </a>
+                                
+                                <a href="/categories/Learning-notes/Linux/Windows/WEB/Tools/" class="post-category">
+                                Tools
+                                </a>
+                                
+                                <a href="/categories/Learning-notes/Linux/Windows/WEB/Tools/CTF/" class="post-category">
+                                CTF
+                                </a>
+                                
+                                <a href="/categories/Learning-notes/Linux/Windows/WEB/Tools/CTF/Write-up/" class="post-category">
+                                Write up
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </article>
 </main>
+
+
 
 
     <footer class="page-footer bg-color">
